@@ -9,38 +9,41 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
-    <header>
+<div class="top-bar">
+   <p><i class="fas fa-envelope"></i>ssingh2345@gmail.com</p>
+    <p><i class="fas fa-phone"></i>62020082775</p>
+    <!-- <input type="number" placeholder="number"> -->
+</div>
+<div class="header">
     <div class="navbar">
-       <div class="nav-logo">
-        <div class="logo">
-            <img src="assets/cart.png"  alt="" width="60" height="60">
+        <p>LOGO</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">store</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
         </div>
-       </div> 
-       <div class="searchbar">
-        <select class="box">
-         <option>All</option> 
-        </select>
-        
-        <input placeholder="search for shopping" class="search">
-        <div class="search-icon">
-            <i class="fa-sharp fa-solid fa-magnifying-glass"></i> 
+        <div class="navbar-b">
+            <div class="dropdown">
+                <select name="" id="">
+                    <option value="1">Categories</option>
+                    <option value="2">New</option>
+                    <option value="3">important</option>
+                    <option value="4">Local</option>
+                </select>
+                <div class="search">
+                    <input type="search" placeholder="search">
+                    <i class="fas fa-magnifying-glass"></i>
+                </div>
+                <div class="cart"><i class="fas fa-cart-shopping"></i><p></p></div>
+            </div>
         </div>
-        </div>
-       <div class="cart-icon">
-           <i class="fa-solid fa-cart-shopping"></i>  
-           <sup>0</sup>
-       </div> 
-    </div>
-    </header>
-    <!-- <div class="cart">
-        <div class="cart-icon" onclick="showCartItems()">
-            <div class="cart-icon-count">0</div>
-            <div class="cart-item-container" ></div>        
-        </div>
-        
-        
-    </div> -->
+    <!-- </div> -->
+
+</div>
+    
+       
 
     <script src="js/script.js">    
     </script>
